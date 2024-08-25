@@ -41,11 +41,18 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Customer Segmentation",
-    description: "Customer segmentation based on income and spending, enabling targeted marketing to improve engagement and sales",
+    title: "Real-time Object Detection and Plate recognition app",
+    description: "The app utilizes YOLOv5 and CRNN models for real-time object and license plate recognition from video streams, ensuring accuracy and speed",
     image: project1,
-    link: "https://spiffy-roar-1b8.notion.site/Customer-Segmentation-for-Targeted-Marketing-5b07dd12d85c43ce9714e70542d3bc81",
-    technologies: ["Python", "Clustering", "Marketing Analytics"],
+    link: "https://spiffy-roar-1b8.notion.site/Smart-Parking-app-with-Real-time-dynamic-pricing-14c61e464fba4ceeaeeba376f31b405a",
+    technologies: ["Python", "YOLOv5", "DB Model", "CRNN", "OpenCV", "Tkinter"],
+  },
+  {
+    title: "Smart Parking App with Real-Time Dynamic Pricing",
+    description: "A scalable smart parking system that dynamically adjusts parking prices based on real-time occupancy data",
+    image: project4,
+    link: "https://spiffy-roar-1b8.notion.site/Smart-Parking-app-with-Real-time-dynamic-pricing-14c61e464fba4ceeaeeba376f31b405a",
+    technologies: ["Apache Kafka", "Apache Spark Streaming", "Cassandra", "Flask", "Python"]
   },
   {
     title: "Data Preprocessing Application",
@@ -56,18 +63,11 @@ export const PROJECTS = [
   },
   {
     title: "Tableau Revenue and Sales Performance Analysis of Superstore",
-    description: "Evaluated revenue trends and margin patterns to pinpoint performance gaps and recommend strategies for growth and efficiency",
+    description: "Evaluation of revenue trends and margin patterns to pinpoint performance gaps and recommendations on strategies for growth and efficiency",
     image: project3,
     link: "https://spiffy-roar-1b8.notion.site/Tableau-Revenue-and-Sales-Performance-analysis-of-Superstore-053124f8e49d400eac0595062294d852",
     technologies: ["Tableau", "Data Visualization", "Sales Analysis"],
   },
-  {
-    title: "Power BI Sales Performance and Profitability Analysis of Sport Products",
-    description: "Insights into sports product sales and profit dynamics, and optimization of regional and channel strategies",
-    image: project4,
-    link: "https://spiffy-roar-1b8.notion.site/Power-Bi-Sales-Performance-and-Profitability-Analysis-of-Sport-Products-bc762e82ce29437d9a7eb6f5940f20e2",
-    technologies: ["Power BI", "Data Visualization", "Profitability Analysis"],
-  }
 ];
 
 

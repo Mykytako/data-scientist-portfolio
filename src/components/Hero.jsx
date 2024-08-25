@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import profilePic from "../assets/kevinRushProfile.png"; // Update the image if needed
 
 const HERO_CONTENT =
-  "I am a dedicated Data Analyst with 3 years of experience in delivering impactful data-driven solutions. Proficient in Python, SQL, and AWS services, I excel at leveraging tools like Tableau, Power BI, and Excel to drive insightful analysis and optimize processes. My expertise spans developing predictive models, automating data workflows, and creating dynamic visualizations to support strategic decision-making. My goal is to harness my skills to develop innovative solutions that enhance business performance and deliver measurable results.";
+  "I am a passionate Data Scientist with over 3 years of experience in applying data-driven solutions to solve complex challenges across diverse industries. Adept in Python, SQL, and big data technologies like Hadoop and Spark, I excel at creating and deploying machine learning models, conducting web scraping, and integrating APIs to support decision-making. My expertise includes building predictive models, deep learning applications, and dynamic visualizations through tools such as Tableau, Streamlit, and Power BI. I thrive on using cutting-edge tools and data science techniques to optimize processes, improve operational efficiency, and deliver actionable insights that drive measurable business outcomes.";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -33,7 +33,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Data Analyst
+              Data Scientist
             </motion.span>
             <motion.p
               variants={container(1)}
