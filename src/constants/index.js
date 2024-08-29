@@ -43,7 +43,7 @@ export const PROJECTS = [
   {
     title: "Real-time Object Detection and Plate recognition app",
     description: "The app utilizes YOLOv5 and CRNN models for real-time object and license plate recognition from video streams, ensuring accuracy and speed",
-    image: project1,
+    image: project2,
     link: "https://spiffy-roar-1b8.notion.site/Smart-Parking-app-with-Real-time-dynamic-pricing-14c61e464fba4ceeaeeba376f31b405a",
     technologies: ["Python", "YOLOv5", "DB Model", "CRNN", "OpenCV", "Tkinter"],
   },
@@ -57,7 +57,7 @@ export const PROJECTS = [
   {
     title: "Data Preprocessing Application",
     description: "A tool for automating data preprocessing tasks to streamline data analysis workflows.",
-    image: project2,
+    image: project1,
     link: "https://spiffy-roar-1b8.notion.site/Data-Preprocessing-Application-74c049e806214e1ca6be6d6673c454fd",
     technologies: ["Python", "Data Cleaning", "Automation"],
   },
