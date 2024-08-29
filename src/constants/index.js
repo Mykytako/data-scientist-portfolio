@@ -40,19 +40,19 @@ export const EXPERIENCES = [
 
 
 export const PROJECTS = [
+    {
+    title: "Smart Parking App with Real-Time Dynamic Pricing",
+    description: "A scalable smart parking system that dynamically adjusts parking prices based on real-time occupancy data",
+    image: project4,
+    link: "https://spiffy-roar-1b8.notion.site/Smart-Parking-app-with-Real-time-dynamic-pricing-14c61e464fba4ceeaeeba376f31b405a",
+    technologies: ["Apache Kafka", "Apache Spark Streaming", "Cassandra", "Flask", "Python"]
+  },
   {
     title: "Real-time Object Detection and Plate recognition app",
     description: "The app utilizes YOLOv5 and CRNN models for real-time object and license plate recognition from video streams, ensuring accuracy and speed",
-    image: project4,
-    link: "https://spiffy-roar-1b8.notion.site/Smart-Parking-app-with-Real-time-dynamic-pricing-14c61e464fba4ceeaeeba376f31b405a",
-    technologies: ["Python", "YOLOv5", "DB Model", "CRNN", "OpenCV", "Tkinter"],
-  },
-  {
-    title: "Smart Parking App with Real-Time Dynamic Pricing",
-    description: "A scalable smart parking system that dynamically adjusts parking prices based on real-time occupancy data",
     image: project1,
-    link: "https://spiffy-roar-1b8.notion.site/Smart-Parking-app-with-Real-time-dynamic-pricing-14c61e464fba4ceeaeeba376f31b405a",
-    technologies: ["Apache Kafka", "Apache Spark Streaming", "Cassandra", "Flask", "Python"]
+    link: "https://spiffy-roar-1b8.notion.site/Real-time-Object-Detection-and-Plate-recognition-app-1175f44d0c1f4aee821d7bfd14262059",
+    technologies: ["Python", "YOLOv5", "DB Model", "CRNN", "OpenCV", "Tkinter"],
   },
   {
     title: "Data Preprocessing Application",
