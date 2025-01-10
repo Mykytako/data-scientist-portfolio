@@ -2,8 +2,6 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-5.jpg";
-import project6 from "../assets/projects/project-6.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -42,7 +40,7 @@ export const EXPERIENCES = [
 
 
 export const PROJECTS = [
-    {
+  {
     title: "Smart Parking App with Real-Time Dynamic Pricing",
     description: "A scalable smart parking system that dynamically adjusts parking prices based on real-time occupancy data",
     image: project4,
@@ -50,11 +48,11 @@ export const PROJECTS = [
     technologies: ["Apache Kafka", "Apache Spark Streaming", "Cassandra", "Flask", "Python"]
   },
   {
-    title: "Customer Segmentation",
-    description: "Customer segmentation based on income and spending, enabling targeted marketing to improve engagement and sales",
-    image: project5,
-    link: "https://spiffy-roar-1b8.notion.site/Customer-Segmentation-for-Targeted-Marketing-5b07dd12d85c43ce9714e70542d3bc81",
-    technologies: ["Python", "Clustering", "Marketing Analytics"],
+    title: "Real-time Object Detection and Plate recognition app",
+    description: "The app utilizes YOLOv5 and CRNN models for real-time object and license plate recognition from video streams, ensuring accuracy and speed",
+    image: project1,
+    link: "https://www.notion.so/Real-time-Object-Detection-and-Plate-recognition-app-1175f44d0c1f4aee821d7bfd14262059",
+    technologies: ["Python", "YOLOv5", "DB Model", "CRNN", "OpenCV", "Tkinter"],
   },
   {
     title: "Data Preprocessing Application",
@@ -64,26 +62,12 @@ export const PROJECTS = [
     technologies: ["Python", "Data Cleaning", "Automation"],
   },
   {
-    title: "Real-time Object Detection and Plate recognition app",
-    description: "The app utilizes YOLOv5 and CRNN models for real-time object and license plate recognition from video streams, ensuring accuracy and speed",
-    image: project1,
-    link: "https://spiffy-roar-1b8.notion.site/Real-time-Object-Detection-and-Plate-recognition-app-1175f44d0c1f4aee821d7bfd14262059",
-    technologies: ["Python", "YOLOv5", "DB Model", "CRNN", "OpenCV", "Tkinter"],
-  },
-  {
-    title: "Power BI Sales Performance and Profitability Analysis of Sport Products",
-    description: "Insights into sports product sales and profit dynamics, and optimization of regional and channel strategies",
-    image: project6,
-    link: "https://spiffy-roar-1b8.notion.site/Power-Bi-Sales-Performance-and-Profitability-Analysis-of-Sport-Products-bc762e82ce29437d9a7eb6f5940f20e2",
-    technologies: ["Power BI", "Data Visualization", "Profitability Analysis"],
-  },
-  {
     title: "Tableau Revenue and Sales Performance Analysis of Superstore",
     description: "Evaluation of revenue trends and margin patterns to pinpoint performance gaps and recommendations on strategies for growth and efficiency",
     image: project3,
     link: "https://spiffy-roar-1b8.notion.site/Tableau-Revenue-and-Sales-Performance-analysis-of-Superstore-053124f8e49d400eac0595062294d852",
     technologies: ["Tableau", "Data Visualization", "Sales Analysis"],
-  }
+  },
 ];
 
 
